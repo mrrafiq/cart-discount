@@ -177,7 +177,7 @@
                     
                 }
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/cart/adjust-qty/{{$data->id}}",
+                    url: "http://103.82.92.132:8000/api/cart/adjust-qty/{{$data->id}}",
                     type: "POST",
                     contentType: "application/x-www-form-urlencoded",
                     data: {
@@ -210,7 +210,7 @@
                     calculate();
 
                     $.ajax({
-                        url: "http://127.0.0.1:8000/api/cart/adjust-qty/{{$data->id}}",
+                        url: "http://103.82.92.132:8000/api/cart/adjust-qty/{{$data->id}}",
                         type: "POST",
                         contentType: "application/x-www-form-urlencoded",
                         data: {
